@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+}
+
+/* header */
+header{
+    background: url('../img/bgheader.jpg') no-repeat center scroll;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+}
+#profile-image{
+    max-height: 150px;
+}
+#profile-name{
+    color: white;
+}
+#profile-occupation{
+    color: white;
+}
+#profile-tagline{
+    color: white;
+}
+
+/* navigation bar */
+.custom-navbar{
+    border-radius: 0px;
+    border: none;
+}
+.custom-navbar .navbar-nav > li > a {
+    color: white;
+}
+.section-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* about */
+#about{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#about-image{
+    float: right;
+    height: 230px;
+}
+@media only screen and (max-width: 992px) {
+    #about-image{
+        float: none;
+        display: block; /* biar margin auto bisa */
+        margin: auto;
+    }
+}
+.about-info{
+    border-bottom: 2px dashed black;
+}
+
+/* education */
+.row.row-eq-height {
+    display: flex;
+}
+@media only screen and (max-width: 992px) {
+    .row.row-eq-height {
+        display: initial;
+    }
+}
+#myeducation{
+    background-color:#cecece;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.myeducation-container{
+    padding: 20px;
+    text-align: left;
+}
+.myeducation-year{
+    border-left: 4px solid #ff8738;
+    padding-left: 10px;
+}
+.myeducation-underline{
+    border-color: black;
+}
+
+/* skill */
+.myskill {
+    display: block;
+    text-align: center;
+    background: black;
+    background-size: cover;
+    height: inherit;
+    padding-top: 10px;
+}
+.myskill-title{
+    color: white;
+}
+.myskill-container{
+    padding: 30px;
+    text-align: left;
+    color: white;
+}
+.myskill-progress-title{
+    padding: 10px 10px 10px 0px;
+}
+
+/* contact */
+#contact{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-input{
+    border-radius: 0px;
+    background: #D8D8E0;
+}
+.contact-button{
+    border-radius: 0px;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+/* footer */
+footer{
+    background: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
